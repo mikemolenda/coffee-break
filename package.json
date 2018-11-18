@@ -1,0 +1,24 @@
+{
+  "name": "coffee-break",
+  "version": "1.0.0",
+  "description": "Sends an email reminder to two random team members to meet for coffee",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikemolenda/coffee-break.git"
+  },
+  "author": "Mike Molenda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikemolenda/coffee-break/issues"
+  },
+  "homepage": "https://github.com/mikemolenda/coffee-break#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "nodemailer": "^4.6.7",
+    "secure-env": "^1.0.0"
+  }
+}
